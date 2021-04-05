@@ -1,0 +1,6 @@
+To run the pipeline:
+1. Create template from below command:
+	python mainv3.py   --project stockstreamingtask   --runner DataFlowRunner    --staging_location gs://stock1demo/staging   --temp_location gs://stock1demo/tmp   --experiments=allow_non_updatable_job parameter   --input_mode stream   --streaming   --input_topic projects/stockstreamingtask/topics/stockdata   --output_table stockstreamingtask:dataset1.stock   --region europe-west1 --template_location gs://stock1demo/templates/stream_template
+	
+2. Template will be created in gs://stock1demo/templates/stream_template path
+3. From template we can create a Dataflow job from console.

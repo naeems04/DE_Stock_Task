@@ -59,5 +59,12 @@ Below are the arguments that need to be passed to the pipeline.
 
 ### Manual Deployment
 - Refer deployment_manual_steps.txt
+- Also deploy_CICD_steps.txt is the file which indicates creating templates and job from console.
+
+
+### Future Scope - Need to develop
+CICD pipeline need to be created to deploy the artifacts without manual intervention.
+
+
 
 
