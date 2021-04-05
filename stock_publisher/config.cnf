@@ -1,6 +1,6 @@
 [stock_rest_setup_config]
 STOCK_URL = https://sandbox.iexapis.com/stable/stock/market/batch?symbols={}&types=quote&token=Tpk_51ea9928f660462fb11381a2727c1df9
-ALLOWED_COMPANY = XOM
+ALLOWED_COMPANY = XOM,AMZN,FB,GOOGL,APPF,PGZ,NBA,MAC,ZTO,ABM
 
 [pubsub_setup_config]
 PROJECT_ID=stockstreamingtask

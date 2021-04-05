@@ -1,11 +1,12 @@
 # naeems04 - Data Engineering Assesment
 
 ### Architecture
-![](Stock_Stream_Architecture.png)
+![](stockstreaming/Stock_Stream_Architecture.png)
 
 
-### Project Structure
-#stockstreaming
+### First Use Case
+#Project Structure
+##stockstreaming
 -Streaming Dataflow pipeline code
 1. main_streaming.py	 				- The entry point for the Dataflow streaming pipeline.
 2. run.sh 							- The script to execute the Dataflow pipeline
@@ -18,7 +19,7 @@
 		   - input_data.txt 			- Containing data for top 3 average calculation without window
 		   - stream_data.txt			- Containing data for top 3 average calculation with window for 1, 5 and 15 minutes
 		   
-#stock_publisher - package
+##stock_publisher
 A docker based application for continously calling Rest Stock Quote Endpoint and publishing data to Google PubSub
 1. connector.py 						- The logic for calling Rest Api and publishing is in this file
 2. config.cnf 						- configuration for Stock data endpoint, companies to be considered, Google ProjectID and PubSub topic name
@@ -55,5 +56,8 @@ Below are the arguments that need to be passed to the pipeline.
 	NOTE: aggregation type is 1, 5 or 15 based on the window. To identify the records after its inserted into BigQuery table.
 - Data received from Hopping window is converted into json
 - Output is written into BigQuery table
+
+### Manual Deployment
+- Refer deployment_manual_steps.txt
 
 

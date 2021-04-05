@@ -1,0 +1,25 @@
+To manual run the pipeline:
+1. Create Google PubSub topic - e.g. stockdata
+2. Create BigQuery table - stock with below schema:
+    Field name	        Type
+    symbol	            STRING
+    average	            FLOAT
+    timestamp	        STRING
+    aggregation_type	STRING
+3. Create BigQuery table - top_price_stock with below schema:
+    Field name	        Type
+    symbol	            STRING
+    proce	            FLOAT
+    timestamp	        STRING
+    aggregation_type	STRING
+
+4. cd ./stock_publisher/
+   Run below command to create a Docker image:
+   gcloud builds submit --tag gcr.io/PROJECT_ID/REPOSITORY_NAME
+   Create GKE cluster and add workload with the image created above.
+   
+
+5. From Google cloud-shell - place the artifacts in ./stockstreaming/ on google cloud storage
+   cd to path where artifacts are kept:
+   sh run.sh command (changing the arguments to appropriate values)
+
