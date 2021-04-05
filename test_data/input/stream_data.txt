@@ -1,0 +1,4 @@
+{"XOM":{"quote":{"symbol": "XOM", "companyName": "Corp Ltd", "latestPrice": "82.47"}}}
+{"AMZN":{"quote":{"symbol": "AMZN", "companyName": "Corp Ltd", "latestPrice": "72.25"}}}
+{"AMZN":{"quote":{"symbol": "AMZN", "companyName": "Corp Ltd", "latestPrice": "36.02"}}}
+{"XOM":{"quote":{"symbol": "XOM", "companyName": "Corp Ltd", "latestPrice": "70.91"}}}

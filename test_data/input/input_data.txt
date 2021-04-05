@@ -1,0 +1,5 @@
+{"XOM": {"quote": {"symbol": "XOM", "companyName": "Exxon Mobil Corp.", "latestPrice": 57}}}
+{"IBM": {"quote": {"symbol": "IBM", "companyName": "Tel Corp.", "latestPrice": 58}}}
+{"ABN": {"quote": {"symbol": "ABN", "companyName": "T Corp.", "latestPrice": 50}}}
+{"IBM": {"quote": {"symbol": "IBM", "companyName": "Tel Corp.", "latestPrice": 50}}}
+{"ABN": {"quote": {"symbol": "ABN", "companyName": "T Corp.", "latestPrice": 49}}}

@@ -1,0 +1,4 @@
+google.cloud==0.34.0
+requests==2.23.0
+google-cloud-storage==1.37.0
+google-cloud-pubsub==2.3.0
