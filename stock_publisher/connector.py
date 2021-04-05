@@ -72,3 +72,4 @@ if __name__ == '__main__':
     companies = config.get("stock_rest_setup_config", "ALLOWED_COMPANY")
     url = stock_url.format(companies)
     stream_data(url)
+	logger.info("Streaming data ended...")
